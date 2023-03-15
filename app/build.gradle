@@ -5,13 +5,6 @@ plugins {
     id 'dagger.hilt.android.plugin'
     //annotation processing Hilt
     id 'kotlin-kapt'
-    /*id 'com.android.application'
-    id 'org.jetbrains.kotlin.android'
-    id 'kotlin-android'
-    id 'kotlin-android-extensions'
-    id 'dagger.hilt.android.plugin'
-    //annotation processing Hilt
-    id 'kotlin-kapt'*/
 }
 
 android {
