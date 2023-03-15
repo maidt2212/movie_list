@@ -140,23 +140,4 @@ class ListingActivity : AppCompatActivity() {
             }
         })
     }
-/*
-    private fun loadMore() {
-        rowsArrayList.add(null)
-        recyclerViewAdapter.notifyItemInserted(rowsArrayList.size() - 1)
-        val handler = Handler()
-        handler.postDelayed(Runnable {
-            rowsArrayList.remove(rowsArrayList.size() - 1)
-            val scrollPosition: Int = rowsArrayList.size()
-            recyclerViewAdapter.notifyItemRemoved(scrollPosition)
-            var currentSize = scrollPosition
-            val nextLimit = currentSize + 10
-            while (currentSize - 1 < nextLimit) {
-                rowsArrayList.add("Item $currentSize")
-                currentSize++
-            }
-            recyclerViewAdapter.notifyDataSetChanged()
-            isLoading = false
-        }, 2000)
-    }*/
 }
